@@ -1,0 +1,62 @@
+.channelRow{
+    display: flex;
+  align-items: center;
+  width: 70%;
+}
+.channelRow__avatar{
+    height: 120px !important;
+    width: 120px !important;
+    margin: 10px 50px!important;
+    cursor: pointer;
+}
+.channelRow__info{
+    cursor: pointer;
+    align-items: center;
+   flex-direction: column;
+    padding: 15px;
+    margin: 25px ;
+   
+}
+.channelRow__subButton{
+    display: flex;
+    
+  
+    align-items: center;
+}
+.channelRow__checkIcon{
+color: gray;
+margin-left:5px ;
+}
+
+
+.channelRow__info >h4{
+    
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    color: black;
+    font-size: large;
+   
+}
+.bell{
+    margin-left: 10px;
+}
+.channelRow__info >p{
+  color: #606060;
+  margin: 5px;
+  font-size: small;
+}
+.channelRow__info > span{
+   margin: 10px;
+   text-align: center;
+ 
+}
+@media only screen and (max-width: 800px) {
+    button{
+        display: none !important;
+    }
+     .bell{
+         display: none!important;
+     }
+   }
+   

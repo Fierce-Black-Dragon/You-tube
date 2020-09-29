@@ -1,0 +1,39 @@
+.buttonTrue {
+  
+    padding: 10px ;
+    font-size: large;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    height: 45px !important;
+    font-size: 20px;
+    background-color: #ee0505e0 !important;
+    border: none;
+    border-radius: 5px;
+    color: white;
+  
+  }
+  
+  .buttonFalse {
+    height: 45px !important;
+    padding: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    background-color: rgb(219, 216, 216);
+    color: black;
+   
+    border: none;
+    border-radius: 5px;
+   
+  }
+  @media only screen and (max-width: 800px) {
+    button{
+        display: none !important;
+    }
+   
+   }
+   
